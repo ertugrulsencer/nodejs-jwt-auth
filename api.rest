@@ -1,0 +1,30 @@
+POST http://localhost:5000/auth
+Content-Type: application/json
+
+{
+  "token": "eyJhbGciOiJIUzI1NiJ9.ZXJ0dWdydWwy.MlkBB9a_5VQ4X7WZDZ3w-kna0uM56PfDzAYB4Mt-s6A"
+}
+
+###
+
+POST http://localhost:5000/auth/register
+Content-Type: application/json
+
+{
+  "user_name": "ertugrul2",
+  "user_pass": "12345"
+}
+
+###
+
+POST http://localhost:5000/auth/login
+Content-Type: application/json
+
+{
+  "user_name": "ertugrul2",
+  "user_pass": "12345"
+}
+
+###
+
+GET http://localhost:5000/auth/users
