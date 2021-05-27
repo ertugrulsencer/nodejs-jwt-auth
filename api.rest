@@ -28,7 +28,7 @@ Content-Type: application/json
 ###
 
 GET http://localhost:5000/posts
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImVydHVncnVsc2VuY2VyIiwicGFzc3dvcmQiOiJibmtqQsSxdWJJVXZiSFVZdjN1aHlWIiwiaWF0IjoxNjIyMTI5Njg0fQ.CaCoOQgxRCv8uX9xhMzDP-7_0L1NwdGLb8FHXXpq1AU
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImVydHVncnVsc2VuY2VyIiwicGFzc3dvcmQiOiJibmtqQsSxdWJJVXZiSFVZdjN1aHlWIiwiaWF0IjoxNjIyMTU2MjY4LCJleHAiOjE2MjIxNTYyOTh9.Kc4-RcM_J6AuV59YMhj60GRMdMappV7-8hWD_nmLZGs
 
 ###
 

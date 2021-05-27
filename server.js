@@ -33,7 +33,9 @@ app.post("/auth/login", (req, res) => {
     return res.status(400).json({ error: "Username or password faild" });
   res.status(200).json({
     message: "Login succes",
-    accessToken: jwt.sign(user, process.env.ACCESS_TOKEN_SECRET),
+    accessToken: jwt.sign(user, process.env.ACCESS_TOKEN_SECRET, {
+      expiresIn: 30, // Number or String value
+    }),
   });
 });
 
